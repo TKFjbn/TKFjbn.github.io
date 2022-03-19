@@ -1,0 +1,87 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #14182e;
+    padding: 10px;
+}
+
+/* El titulo del blog*/
+.header{
+    background-color: #14182e;
+    padding: 20px;
+    text-align: center;
+    color: #f5ffe8;
+}
+
+.header h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+/* Navegador */
+.topnav{
+    margin: auto;
+    width: 50%;
+    background-color: #f5ffe8;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+.topnav a{
+    width: 33.33%;
+    float: left;
+    display: block;
+    color: #1b1f21;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.topnav a:hover{
+    background-color: #63ab3f;
+    color: #1b1f21;
+}
+
+/* Columnas/Contenido de la pagina*/
+.column{
+    float: left;
+    width: 100%;
+    height: 300px;
+    background-color: #c8d45d;
+    margin-bottom: 20px;
+    color: #1b1f21;
+}
+.column h2{
+    padding: 16px;
+    text-align: center;
+}
+.column p{
+    padding: 16px;
+    text-align: left;
+}
+.row:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media screen and (max-width: 600px){
+    .column{
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .topnav a {
+      float: none;
+      width: 100%;
+    }
+  }
+
+/* Pie de pagina */
+.footer{
+    background-color: #f5ffe8;
+    padding: 40px;
+    text-align: center;
+}
