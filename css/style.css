@@ -3,16 +3,16 @@
 }
 
 body{
-    background-color: #14182e;
-    padding: 10px;
+    background-color: #1b1f21;
+    margin: 0;
 }
 
 /* El titulo del blog*/
 .header{
-    background-color: #14182e;
+    background-color: #1b1f21;
     padding: 20px;
     text-align: center;
-    color: #f5ffe8;
+    color: #c8d45d;
 }
 
 .header h1{
@@ -23,8 +23,8 @@ body{
 /* Navegador */
 .topnav{
     margin: auto;
-    width: 50%;
-    background-color: #f5ffe8;
+    width: 100%;
+    background-color: #c8d45d;
     overflow: hidden;
     margin-bottom: 20px;
 }
@@ -38,18 +38,21 @@ body{
     text-decoration: none;
 }
 .topnav a:hover{
-    background-color: #63ab3f;
-    color: #1b1f21;
+    background-color: #1b1f21;
+    color: #c8d45d;
+    font-style: bold;
+    padding-bottom: 1px;
 }
 
 /* Columnas/Contenido de la pagina*/
 .column{
-    float: left;
-    width: 100%;
+    width: 60%;
     height: 300px;
-    background-color: #c8d45d;
+    background-color: #dfe0e8;
+    margin: auto;
     margin-bottom: 20px;
     color: #1b1f21;
+    border-radius: 15px;
 }
 .column h2{
     padding: 16px;
@@ -59,6 +62,12 @@ body{
     padding: 16px;
     text-align: left;
 }
+.header_column{
+    height: 25%;
+    background-color: #c8d45d;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
 .row:after{
     content: "";
     display: table;
@@ -81,7 +90,7 @@ body{
 
 /* Pie de pagina */
 .footer{
-    background-color: #f5ffe8;
+    background-color: #c8d45d;
     padding: 40px;
     text-align: center;
 }
