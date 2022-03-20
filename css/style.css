@@ -2,8 +2,10 @@
     box-sizing: border-box;
 }
 
-body{
-    margin: 0;
+html,body {
+    margin:0;
+    padding:0;
+    overflow-x:hidden;
 }
 .body_class{
     background-color: #36382E;
@@ -70,7 +72,7 @@ body{
 
 @media screen and (max-width: 600px){
     .column{
-        width: 90%;
+        width: 100%;
         height: 300px;
     }
 }
