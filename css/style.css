@@ -2,9 +2,11 @@
     box-sizing: border-box;
 }
 
+body{
+    margin: 0;
+}
 .body_class{
     background-color: #36382E;
-    margin: 0;
 }
 
 #separador{
