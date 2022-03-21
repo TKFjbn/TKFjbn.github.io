@@ -1,3 +1,6 @@
+
+
+
 *{
     box-sizing: border-box;
 }
@@ -7,17 +10,36 @@ html,body {
     padding:0;
     overflow-x:hidden;
 }
+
+
 .body_class{
-    background-color: #36382E;
+    background-color: #171819;
 }
 
 .separador{
     padding: 25px;
 }
 
+/*font awesome*/
+.fa {
+    padding: 20px;
+    font-size: 24px;
+    width: 70px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+    background-color: #EDE6E3;
+    color: #2c3b39;
+  }
+  .fa:hover {
+    opacity: 0.7;
+  }
+
 /* El titulo del blog*/
 .header{
     padding: 20px;
+    height: 200px;
     text-align: center;
     color: #EDE6E3;
 }
@@ -30,17 +52,29 @@ html,body {
 /* Navegador */
 .topnav{
     margin: auto;
-    background-color: #F06449;
+    background-color: #171819;
     overflow: hidden;
 }
 
 .topnav a{
     font-size: 20px;
 }
+.topnav li{
+    margin-left: 33.33px;
+    margin-right: 33.33px;
+}
+
+.topnav ul{
+    float: right;
+    flex-direction: row;
+    margin-left: auto;
+    background-color: #2c3b39;
+    border-radius: 15px 0px 15px 0px;
+}
 
 /* Columnas/Contenido de la pagina*/
 .column{
-    width: 70%;
+    width: 40%;
     height: 300px;
     background-color: #DADAD9;
     margin: auto;
@@ -59,8 +93,10 @@ html,body {
     text-align: left;
 }
 .header_column{
-    height: 25%;
-    background-color: #F06449;
+    height: auto;
+    padding-bottom: 15px;
+    overflow: hidden;
+    background-color: #2c3b39;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -70,7 +106,7 @@ html,body {
     clear: both;
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 650px){
     .column{
         width: 100%;
         height: 300px;
@@ -80,7 +116,13 @@ html,body {
 /* Pie de pagina */
 
 .footer{
-    background-color: #F06449;
-    padding: 100px;
+    background-color: #2c3b39;
     text-align: center;
+    overflow: hidden;
+}
+
+.footer-child{
+    width: auto;
+    height: 100px;
+    color: #DADAD9;
 }
